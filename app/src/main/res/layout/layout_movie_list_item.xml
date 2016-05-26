@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/ripple_list_item">
+
+    <ImageView
+        android:id="@+id/iv_movie_list_poster"
+        android:layout_width="75dp"
+        android:layout_height="105dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_movie_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/iv_movie_list_poster"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_movie_list_original_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_movie_list_title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/iv_movie_list_poster"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_movie_list_collect_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_movie_list_original_title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/iv_movie_list_poster"/>
+
+    <TextView
+        android:id="@+id/tv_movie_list_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

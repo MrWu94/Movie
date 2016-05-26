@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="expansion">展开</string>
+    <string name="shrink">收起</string>
+    <string name="search">搜索</string>
+    <string name="cancel">取消</string>
+    <string name="in_theaters_english">in_theaters</string>
+    <string name="coming_soon_english">coming_soon</string>
+    <string name="weekly_english">weekly</string>
+    <string name="in_theaters_chinese">正在上映</string>
+    <string name="coming_soon_chinese">即将上映</string>
+    <string name="weekly_chinese">口碑榜</string>
+    <string name="collect_count">位小伙伴一起看过</string>
+    <string name="about_me">关于我</string>
+    <string name="no_score">暂无评分</string>
+    <string name="actor">演职人员</string>
+    <string name="comma">,</string>
+</resources>
